@@ -69,7 +69,7 @@
 }
     .agency__header-content__input button:hover{
         background: var(--gradient-bar);
-        transform: scale(1.15);
+        transform: scale(1.05);
     }
 
 .agency__header-content__people{
