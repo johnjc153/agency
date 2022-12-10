@@ -51,7 +51,7 @@
     padding: 1rem 2rem;
     color: #fff;
     height: 58px;
-    background: #ff4820;
+    background: var(--button-color);
     border-radius: 5px;
     font-family: var(--font-family);
     font-weight: 500;
