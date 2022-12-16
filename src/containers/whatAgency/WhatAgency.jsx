@@ -1,13 +1,12 @@
 import React from 'react'
-// import { Feature } from '../../components'
-import Features from '../features/Features'
+import { Feature } from '../../components'
 import './whatagency.css'
 
 const WhatAgency = () => {
   return (
     <div className="agency__whatagency section__margin" id='wwa'>
       <div className="agency__whatagency-feature">
-        <Features title="What is agency" text="Lorem, ipsum dolor sit amet consectetur adipisicing elit."/>
+        <Feature title="What is agency" text="Lorem, ipsum dolor sit amet consectetur adipisicing elit."/>
       </div>
       
       <div className="agency__whatagency-heading">
@@ -17,9 +16,9 @@ const WhatAgency = () => {
 
       <div className="agency__whatagency-container">
         
-        <Features title="About us" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, corrupti." />
-        <Features title="Knowledgebase" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, corrupti." />
-        <Features title="Education" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, corrupti." />
+        <Feature title="About us" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, corrupti." />
+        <Feature title="Knowledgebase" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, corrupti." />
+        <Feature title="Education" text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, corrupti." />
 
       </div>
 
