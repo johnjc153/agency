@@ -9,8 +9,8 @@ const Header = () => {
     <div className='agency__header section__padding' id='home'>
       <div className="agency__header-content">
         
-        <h1 className='gradient__text'>Let's build something amazing together</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias dolorum soluta minima ad doloremque a reprehenderit tempore? Facere magnam recusandae rerum est. Laborum debitis saepe exercitationem libero quidem rem quaerat!</p>
+        <h1 className='gradient__text'>Build Your Dream Website with Our Expert Team</h1>
+        <p>Let's Build Something Amazing Together! Transform Your Online Presence with Professional Website Design</p>
         
         <div className="agency__header-content__input">
           <input type="email" placeholder='Your email address' />

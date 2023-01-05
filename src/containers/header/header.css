@@ -40,13 +40,13 @@
     min-height: 50px;
     font-size: 20px;
     line-height: 27px;
-    background: var(--color-footer);
-    border: 2px solid var(--color-footer);
+    background: gray;
+    border: 2px solid gray;
     padding: 0 1rem;
     outline: none;
     color: #fff;
     border-radius: 5px 0px 0px 5px;
-    color:#3d6184;
+    color:black;
 }
 
 .agency__header-content__input button{
@@ -58,7 +58,7 @@
     font-size: 20px;
     line-height: 27px;
     background: var(--button-color);
-    color: #ffffff;
+    color: black;
     cursor: pointer;
     outline: none;
     padding: 0 1rem;
@@ -68,7 +68,6 @@
     border-bottom-right-radius: 5px;
 }
     .agency__header-content__input button:hover{
-        background: var(--gradient-bar);
         transform: scale(1.05);
     }
 
