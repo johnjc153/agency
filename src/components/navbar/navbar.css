@@ -11,20 +11,22 @@
     display: flex;
     justify-content: flex-start;
     align-content: center;
+    
 }
 
 .agency__navbar-links_logo {
     margin-right: 2rem;
+
 }
 
 .agency__navbar-links_logo img{
-    width: 62px;
-    height: 16px;
+    width: 150px;
 }
 
 .agency__navbar-links_container{
     display: flex;
     flex-direction: row;
+    margin-top: 1rem;
 }
 
 .agency__navbar-sign{
@@ -121,8 +123,12 @@
     }
     .agency__navbar-menu_container{
         top: 20px;
+        margin-top: 0;
     }
     .agency__navbar-menu_container-links-sign{
         display: block;
+    }
+    .agency__navbar-links_logo img{
+        width: 200px;
     }
 }

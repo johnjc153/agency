@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
-import logo from '../../assets/logo.svg'
+import webworks from '../../assets/webworks.png'
 import './navbar.css'
 
 
@@ -22,7 +22,7 @@ const Navbar = () => {
     <div className='agency__navbar'>
       <div className="agency__navbar-links">
         <div className="agency__navbar-links_logo">
-          <img src={logo} alt="logo" />
+          <img src={webworks} alt="logo" />
         </div>
 
         <div className="agency__navbar-links_container">
