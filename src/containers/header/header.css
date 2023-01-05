@@ -40,13 +40,12 @@
     min-height: 50px;
     font-size: 20px;
     line-height: 27px;
-    background: gray;
+    background: white;
     border: 2px solid gray;
     padding: 0 1rem;
     outline: none;
-    color: #fff;
     border-radius: 5px 0px 0px 5px;
-    color:black;
+    color: black;
 }
 
 .agency__header-content__input button{

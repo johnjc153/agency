@@ -1,6 +1,6 @@
 import React from 'react'
 import people from '../../assets/people.png'
-import ai from '../../assets/ai.png'
+import webdesign3 from '../../assets/webdesign3.png'
 import './header.css'
 
   
@@ -19,13 +19,13 @@ const Header = () => {
 
         <div className="agency__header-content__people">
           <img src={people} alt="people" />
-          <p>1800 people have requested access</p>
+          <p>1800 people have worked with us!</p>
         </div>
         
       </div>
 
       <div className="agency__header-image">
-          <img src={ai} alt="ai" />
+          <img src={webdesign3} alt="ai" />
         </div>
     </div>
   )
