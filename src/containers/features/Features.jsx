@@ -6,20 +6,20 @@ import { Feature } from '../../components'
 
 const featuresData = [
   {
-    title: 'Improve SEO',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, accusamus?', 
+    title: 'Custom website development',
+    text: 'Our team will work with you to understand your business goals and design a website that meets your unique needs.', 
   },
   {
-    title: 'Improve SEO',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, accusamus?', 
+    title: 'Responsive design',
+    text: 'All of our websites are built to be fully responsive, so they look great on any device.', 
   },
   {
-    title: 'Improve SEO',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, accusamus?', 
+    title: 'Streamlined design process',
+    text: 'From start to finish, we make the design process as smooth and stress-free as possible', 
   },
   {
-    title: 'Improve SEO',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, accusamus?', 
+    title: 'Ongoing support',
+    text: "We don't just build your website and disappear. We're here to support you every step of the way, with ongoing maintenance and updates as needed.", 
   },
 ]
 
@@ -27,8 +27,8 @@ const Features = () => {
   return (
     <div className="agency__features section__padding" id='features'>
       <div className="agency__features-heading">
-        <h1 className="gradient__text">Work with us today</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h1 className="gradient__text">We want to work with you</h1>
+        <p>We specialize in creating stunning, functional websites that help businesses of all sizes thrive online. When you work with us, you can expect:</p>
       </div>
 
       <div className="agency__features-container">
