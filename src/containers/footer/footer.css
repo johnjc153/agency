@@ -3,8 +3,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 1rem 1rem 0 0;
 
-    background: var(--color-footer);
+    /* background: var(--color-footer); */
+
+   
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 18% 23%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 47%, rgba(67, 67, 67, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 18% 23%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 47%, rgba(67, 67, 67, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 18% 23%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 47%, rgba(67, 67, 67, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 18% 23%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 47%, rgba(67, 67, 67, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 18% 23%, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 47%, rgba(67, 67, 67, 1) 100%);
+
+
 }
 
 .agency__footer-heading {
@@ -64,8 +83,7 @@
 }
 
 .agency__footer-links_logo img {
-    width: 118px;
-    height: 30px;
+    width: 300px;
 
     margin-bottom: 1rem;
 }
@@ -117,6 +135,9 @@
 }
 
 @media screen and (max-width: 850px) {
+    .agency__footer{
+        border-radius: 0;
+    }
     .agency__footer-heading h1 {
         font-size: 44px;
         line-height: 50px;
